@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(232, 223, 223), rgb(63, 55, 55));
+    background-image: url("money.jpg");
+    
+}
+
+
+.container{
+    background-color: rgb(156, 183, 156);
+    
+    border-radius: 1rem;
+    border: 2px,solid,black;
+    padding: 2rem;
+    min-height: 45vh;
+    min-width: 45vh;
+}
+form{
+    margin: 2rem  0  1rem  0;
+}
+
+form, select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    height: 3rem;
+}
+
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2rem ;
+}
+
+
+.select-container img{
+    max-width: 2rem;
+
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+
+}
+
+
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+
+form button{
+    height: 3rem;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
